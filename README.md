@@ -5,7 +5,7 @@
 
     cameradetect.c 
     init.c 
-    turnuplight.c 
+    onlight.c 
     shutdownlight.c 
     donecameradetect.sh 
     takepic.sh 
@@ -23,17 +23,17 @@
     git https://github.com/radmanxu/raspberrydog.git 
     cd raspberry gcc cameradetect.c init.c -o cameradetect -lwiringPi 
     gcc shutdownlight.c -o shutdownlight -lwiringPi 
-    gcc turnuplight.c -o turnuplight -lwiringPi 
+    gcc onlight.c -o onlight -lwiringPi 
     ln -s cameradetect /bin/cameradetect 
     ln -s donecameratect.sh /sbin/donecameradetect 
     ln -s shutdownlight /bin/shutdownlight 
-    ln -s turnuplight /bin/turnuplight 
+    ln -s onlight /bin/onlight 
     ln -s takepic.sh /bin/takepic 
 
 ##运行 
 开灯 
 
-    turnuplight 
+    onlight 
     
 关灯
 
