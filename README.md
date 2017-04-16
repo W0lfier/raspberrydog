@@ -31,23 +31,23 @@
     ln -s takepic.sh /bin/takepic 
 
 ##运行 
+开灯 
 
     turnuplight 
     
-##开灯 
+关灯
 
     shutdownlight 
     
-##关灯 
+打开运动检测
 
     cameradetect 
     
-##打开运动检测 
+关闭运动检测
 
     donecameradetect 
     
-##关闭运动检测 
+拍照并上传百度云盘
 
     takepic 
     
-##拍照并上传百度云盘
